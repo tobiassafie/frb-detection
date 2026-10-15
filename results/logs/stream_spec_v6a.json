@@ -1,0 +1,38 @@
+[
+ {
+  "label": "v6a CNN old recipe [2,4,4,4,4] s142",
+  "run_id": "s0_baseline_2_4_4_4_4_s142",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6a CNN base 128 max flatten (seed2)",
+  "run_id": "v6_sw_r128_max_flatten_d16_seed2",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6a CNN 256 input (seed0)",
+  "run_id": "s1_H3_res256",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6a CNN half-size 2.6k",
+  "run_id": "s1_H4_half",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6a CNN aug (H5b)",
+  "run_id": "s1_H5b_aug",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6a LSTM v3 recipe (seed1)",
+  "run_id": "s0_lstm_v3_recipe_full150_seed1",
+  "preproc": "v6",
+  "trained_on": "v6"
+ }
+]

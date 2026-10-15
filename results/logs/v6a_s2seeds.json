@@ -1,0 +1,62 @@
+[
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "seed": 142,
+  "run_id": "s0_lstm_v3_recipe_full150_seed1",
+  "stage": "stage2_seeds",
+  "hypothesis": "top-2 RNN seeds"
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 142,
+  "stage": "stage2_seeds",
+  "t_pool": 4,
+  "f_pool": 2,
+  "run_id": "s2_H7_lstm64_seed1",
+  "hypothesis": "top-2 RNN seeds"
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "seed": 242,
+  "run_id": "s0_lstm_v3_recipe_full150_seed2",
+  "stage": "stage2_seeds",
+  "hypothesis": "top-2 RNN seeds"
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 242,
+  "stage": "stage2_seeds",
+  "t_pool": 4,
+  "f_pool": 2,
+  "run_id": "s2_H7_lstm64_seed2",
+  "hypothesis": "top-2 RNN seeds"
+ }
+]

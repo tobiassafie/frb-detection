@@ -1,0 +1,352 @@
+{
+ "s1mA_t0003": {
+  "n_noise": 3600,
+  "noise_acc(specificity)": 0.9683333333333334,
+  "acc_snr_ge_3": 0.7902777777777777,
+  "recall_snr_ge_3": 0.6122222222222222,
+  "acc_snr_ge_5": 0.8614540466392319,
+  "recall_snr_ge_5": 0.7315096251266464,
+  "acc_snr_ge_7": 0.9098013676326929,
+  "recall_snr_ge_7": 0.8269079464988198,
+  "acc_snr_ge_10": 0.9475254475254475,
+  "recall_snr_ge_10": 0.9118207816968541,
+  "acc_snr_ge_15": 0.9643962848297214,
+  "recall_snr_ge_15": 0.9553571428571429,
+  "acc_snr_ge_20": 0.9693200663349917,
+  "recall_snr_ge_20": 0.9722222222222222,
+  "acc_v6_brightness_equiv": 0.7869509458159667,
+  "n_frb_v6_brightness_equiv": 2638,
+  "per_test_file": {
+   "FRB20181226E_2": {
+    "acc_snr_ge_7": 0.9463414634146341,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8705882352941177
+   },
+   "FRB20181231C_2": {
+    "acc_snr_ge_7": 0.9382352941176471,
+    "noise_acc": 0.9966666666666667,
+    "frb_recall_snr_ge_7": 0.8547619047619047
+   },
+   "FRB20190210B_3": {
+    "acc_snr_ge_7": 0.9391304347826087,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8551724137931035
+   },
+   "FRB20190609C_4": {
+    "acc_snr_ge_7": 0.8339960238568589,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.5886699507389163
+   },
+   "FRB20190609D_4": {
+    "acc_snr_ge_7": 0.8387096774193549,
+    "noise_acc": 0.8183333333333334,
+    "frb_recall_snr_ge_7": 0.8676122931442081
+   },
+   "FRB20190630C_4": {
+    "acc_snr_ge_7": 0.9603097773475314,
+    "noise_acc": 0.995,
+    "frb_recall_snr_ge_7": 0.9122401847575058
+   }
+  }
+ },
+ "s1mB_t0014": {
+  "n_noise": 3600,
+  "noise_acc(specificity)": 0.9,
+  "acc_snr_ge_3": 0.8011111111111111,
+  "recall_snr_ge_3": 0.7022222222222222,
+  "acc_snr_ge_5": 0.8649596098155768,
+  "recall_snr_ge_5": 0.8223573117190138,
+  "acc_snr_ge_7": 0.9019863236730706,
+  "recall_snr_ge_7": 0.9047993705743509,
+  "acc_snr_ge_10": 0.9204984204984205,
+  "recall_snr_ge_10": 0.955672068636797,
+  "acc_snr_ge_15": 0.9241486068111455,
+  "recall_snr_ge_15": 0.9795918367346939,
+  "acc_snr_ge_20": 0.9214344941956882,
+  "recall_snr_ge_20": 0.9844771241830066,
+  "acc_v6_brightness_equiv": 0.7927220262904777,
+  "n_frb_v6_brightness_equiv": 2638,
+  "per_test_file": {
+   "FRB20181226E_2": {
+    "acc_snr_ge_7": 0.9697560975609756,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9270588235294117
+   },
+   "FRB20181231C_2": {
+    "acc_snr_ge_7": 0.953921568627451,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.888095238095238
+   },
+   "FRB20190210B_3": {
+    "acc_snr_ge_7": 0.9671497584541063,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9218390804597701
+   },
+   "FRB20190609C_4": {
+    "acc_snr_ge_7": 0.915506958250497,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.7906403940886699
+   },
+   "FRB20190609D_4": {
+    "acc_snr_ge_7": 0.6862170087976539,
+    "noise_acc": 0.5016666666666667,
+    "frb_recall_snr_ge_7": 0.9479905437352246
+   },
+   "FRB20190630C_4": {
+    "acc_snr_ge_7": 0.9186834462729913,
+    "noise_acc": 0.8983333333333333,
+    "frb_recall_snr_ge_7": 0.9468822170900693
+   }
+  }
+ },
+ "s1mB_t0041_rfi": {
+  "n_noise": 3600,
+  "noise_acc(specificity)": 0.9961111111111111,
+  "acc_snr_ge_3": 0.8268055555555556,
+  "recall_snr_ge_3": 0.6575,
+  "acc_snr_ge_5": 0.8994055784179241,
+  "recall_snr_ge_5": 0.7818304626815266,
+  "acc_snr_ge_7": 0.9443178117876913,
+  "recall_snr_ge_7": 0.8709677419354839,
+  "acc_snr_ge_10": 0.9712179712179713,
+  "recall_snr_ge_10": 0.9285033365109628,
+  "acc_snr_ge_15": 0.9829721362229102,
+  "recall_snr_ge_15": 0.9528061224489796,
+  "acc_snr_ge_20": 0.9861111111111112,
+  "recall_snr_ge_20": 0.9566993464052288,
+  "acc_v6_brightness_equiv": 0.8291118948380891,
+  "n_frb_v6_brightness_equiv": 2638,
+  "per_test_file": {
+   "FRB20181226E_2": {
+    "acc_snr_ge_7": 0.96,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9035294117647059
+   },
+   "FRB20181231C_2": {
+    "acc_snr_ge_7": 0.9245098039215687,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8166666666666667
+   },
+   "FRB20190210B_3": {
+    "acc_snr_ge_7": 0.9565217391304348,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.896551724137931
+   },
+   "FRB20190609C_4": {
+    "acc_snr_ge_7": 0.9065606361829026,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.7684729064039408
+   },
+   "FRB20190609D_4": {
+    "acc_snr_ge_7": 0.9423264907135875,
+    "noise_acc": 0.9766666666666667,
+    "frb_recall_snr_ge_7": 0.8936170212765957
+   },
+   "FRB20190630C_4": {
+    "acc_snr_ge_7": 0.9748305905130688,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9399538106235565
+   }
+  }
+ },
+ "s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0": {
+  "n_noise": 3600,
+  "noise_acc(specificity)": 0.9,
+  "acc_snr_ge_3": 0.7459722222222223,
+  "recall_snr_ge_3": 0.5919444444444445,
+  "acc_snr_ge_5": 0.800335314738607,
+  "recall_snr_ge_5": 0.6791624451198919,
+  "acc_snr_ge_7": 0.8353956366004559,
+  "recall_snr_ge_7": 0.7439024390243902,
+  "acc_snr_ge_10": 0.866970866970867,
+  "recall_snr_ge_10": 0.8102955195424214,
+  "acc_snr_ge_15": 0.8962848297213623,
+  "recall_snr_ge_15": 0.8877551020408163,
+  "acc_snr_ge_20": 0.9073383084577115,
+  "recall_snr_ge_20": 0.928921568627451,
+  "acc_v6_brightness_equiv": 0.7443090734209683,
+  "n_frb_v6_brightness_equiv": 2638,
+  "per_test_file": {
+   "FRB20181226E_2": {
+    "acc_snr_ge_7": 0.8468292682926829,
+    "noise_acc": 0.8233333333333334,
+    "frb_recall_snr_ge_7": 0.88
+   },
+   "FRB20181231C_2": {
+    "acc_snr_ge_7": 0.7696078431372549,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.44047619047619047
+   },
+   "FRB20190210B_3": {
+    "acc_snr_ge_7": 0.9169082125603865,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8022988505747126
+   },
+   "FRB20190609C_4": {
+    "acc_snr_ge_7": 0.7335984095427436,
+    "noise_acc": 0.7716666666666666,
+    "frb_recall_snr_ge_7": 0.6773399014778325
+   },
+   "FRB20190609D_4": {
+    "acc_snr_ge_7": 0.8455522971652004,
+    "noise_acc": 0.8766666666666667,
+    "frb_recall_snr_ge_7": 0.8014184397163121
+   },
+   "FRB20190630C_4": {
+    "acc_snr_ge_7": 0.8964181994191674,
+    "noise_acc": 0.9283333333333333,
+    "frb_recall_snr_ge_7": 0.8521939953810623
+   }
+  }
+ },
+ "qat_s1mB_t0041_rfi_8b": {
+  "n_noise": 3600,
+  "noise_acc(specificity)": 0.9758333333333333,
+  "acc_snr_ge_3": 0.835,
+  "recall_snr_ge_3": 0.6941666666666667,
+  "acc_snr_ge_5": 0.9029111415942692,
+  "recall_snr_ge_5": 0.8142519419115164,
+  "acc_snr_ge_7": 0.9425268642136112,
+  "recall_snr_ge_7": 0.8953579858379229,
+  "acc_snr_ge_10": 0.9636714636714637,
+  "recall_snr_ge_10": 0.9428026692087702,
+  "acc_snr_ge_15": 0.9709752321981424,
+  "recall_snr_ge_15": 0.9598214285714286,
+  "acc_snr_ge_20": 0.9718076285240465,
+  "recall_snr_ge_20": 0.9599673202614379,
+  "acc_v6_brightness_equiv": 0.8364860532221866,
+  "n_frb_v6_brightness_equiv": 2638,
+  "per_test_file": {
+   "FRB20181226E_2": {
+    "acc_snr_ge_7": 0.9658536585365853,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9176470588235294
+   },
+   "FRB20181231C_2": {
+    "acc_snr_ge_7": 0.9323529411764706,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8357142857142857
+   },
+   "FRB20190210B_3": {
+    "acc_snr_ge_7": 0.9642512077294686,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9149425287356322
+   },
+   "FRB20190609C_4": {
+    "acc_snr_ge_7": 0.9274353876739563,
+    "noise_acc": 0.9983333333333333,
+    "frb_recall_snr_ge_7": 0.8226600985221675
+   },
+   "FRB20190609D_4": {
+    "acc_snr_ge_7": 0.884652981427175,
+    "noise_acc": 0.8566666666666667,
+    "frb_recall_snr_ge_7": 0.9243498817966903
+   },
+   "FRB20190630C_4": {
+    "acc_snr_ge_7": 0.9796708615682478,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9515011547344111
+   }
+  }
+ },
+ "loc_t0041_b32": {
+  "n_noise": 3600,
+  "noise_acc(specificity)": 0.9230555555555555,
+  "acc_snr_ge_3": 0.8190277777777778,
+  "recall_snr_ge_3": 0.715,
+  "acc_snr_ge_5": 0.881572930955647,
+  "recall_snr_ge_5": 0.8311381290104695,
+  "acc_snr_ge_7": 0.9154998371865841,
+  "recall_snr_ge_7": 0.9047993705743509,
+  "acc_snr_ge_10": 0.9315549315549315,
+  "recall_snr_ge_10": 0.946139180171592,
+  "acc_snr_ge_15": 0.9359520123839009,
+  "recall_snr_ge_15": 0.9655612244897959,
+  "acc_snr_ge_20": 0.9347014925373134,
+  "recall_snr_ge_20": 0.9689542483660131,
+  "acc_v6_brightness_equiv": 0.8150048092337288,
+  "n_frb_v6_brightness_equiv": 2638,
+  "per_test_file": {
+   "FRB20181226E_2": {
+    "acc_snr_ge_7": 0.9717073170731707,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9317647058823529
+   },
+   "FRB20181231C_2": {
+    "acc_snr_ge_7": 0.9303921568627451,
+    "noise_acc": 0.99,
+    "frb_recall_snr_ge_7": 0.8452380952380952
+   },
+   "FRB20190210B_3": {
+    "acc_snr_ge_7": 0.8782608695652174,
+    "noise_acc": 0.84,
+    "frb_recall_snr_ge_7": 0.9310344827586207
+   },
+   "FRB20190609C_4": {
+    "acc_snr_ge_7": 0.9214711729622267,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8054187192118226
+   },
+   "FRB20190609D_4": {
+    "acc_snr_ge_7": 0.8465298142717498,
+    "noise_acc": 0.7716666666666666,
+    "frb_recall_snr_ge_7": 0.9527186761229315
+   },
+   "FRB20190630C_4": {
+    "acc_snr_ge_7": 0.9448209099709584,
+    "noise_acc": 0.9366666666666666,
+    "frb_recall_snr_ge_7": 0.9561200923787528
+   }
+  }
+ },
+ "loc_t0041_A_w8k5bn": {
+  "n_noise": 3600,
+  "noise_acc(specificity)": 0.9841666666666666,
+  "acc_snr_ge_3": 0.8036111111111112,
+  "recall_snr_ge_3": 0.6230555555555556,
+  "acc_snr_ge_5": 0.8759335467154398,
+  "recall_snr_ge_5": 0.7443431273218507,
+  "acc_snr_ge_7": 0.9236405079778574,
+  "recall_snr_ge_7": 0.8379228953579858,
+  "acc_snr_ge_10": 0.9552474552474552,
+  "recall_snr_ge_10": 0.9056244041944709,
+  "acc_snr_ge_15": 0.9694272445820433,
+  "recall_snr_ge_15": 0.9355867346938775,
+  "acc_snr_ge_20": 0.9749170812603648,
+  "recall_snr_ge_20": 0.9477124183006536,
+  "acc_v6_brightness_equiv": 0.8069894196857967,
+  "n_frb_v6_brightness_equiv": 2638,
+  "per_test_file": {
+   "FRB20181226E_2": {
+    "acc_snr_ge_7": 0.9541463414634146,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8894117647058823
+   },
+   "FRB20181231C_2": {
+    "acc_snr_ge_7": 0.8970588235294118,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.75
+   },
+   "FRB20190210B_3": {
+    "acc_snr_ge_7": 0.9555555555555556,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.8942528735632184
+   },
+   "FRB20190609C_4": {
+    "acc_snr_ge_7": 0.8687872763419483,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.6748768472906403
+   },
+   "FRB20190609D_4": {
+    "acc_snr_ge_7": 0.895405669599218,
+    "noise_acc": 0.905,
+    "frb_recall_snr_ge_7": 0.8817966903073287
+   },
+   "FRB20190630C_4": {
+    "acc_snr_ge_7": 0.9690222652468539,
+    "noise_acc": 1.0,
+    "frb_recall_snr_ge_7": 0.9260969976905312
+   }
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "split": "heldout_family",
+ "fold": null,
+ "seed": 777,
+ "train_groups": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  7,
+  8,
+  9,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  26
+ ],
+ "n_per_class": 12000,
+ "p_subband": 0.35,
+ "p_rfi": 0.5
+}

@@ -1,0 +1,9 @@
+[{"run_id": "s1mB_t0041_rfi", "variants": [
+  {"prec": "ap_fixed<16,6>", "rf": 1, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "ap_fixed<16,6>", "rf": 4, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "ap_fixed<16,6>", "rf": 16, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "ap_fixed<16,6>", "rf": 64, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "ap_fixed<16,6>", "rf": 1, "strategy": "Latency", "io": "io_stream"},
+  {"prec": "ap_fixed<8,3>", "rf": 4, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "ap_fixed<10,4>", "rf": 4, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "ap_fixed<12,5>", "rf": 4, "strategy": "Resource", "io": "io_stream"}]}]

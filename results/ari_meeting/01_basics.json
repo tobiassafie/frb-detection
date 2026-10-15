@@ -1,0 +1,164 @@
+{
+  "generated": "2026-09-23",
+  "models": {
+    "pooled_synthesized": {
+      "file": "classifier/frb_classifier_pooled.h5",
+      "hls4ml_project": "frb_pooled_hls/frb_pooled_hls",
+      "input_shape": [64, 64, 1],
+      "input_elements": 4096,
+      "bottleneck_flatten_dim": 392,
+      "output_shape": [2],
+      "total_params": 844,
+      "trainable_params": 844,
+      "layers": [
+        {"name": "conv2d", "class": "Conv2D", "params": 20, "filters": 2, "kernel": [3, 3]},
+        {"name": "max_pooling2d", "class": "MaxPooling2D", "params": 0},
+        {"name": "dropout", "class": "Dropout", "params": 0, "rate": 0.5},
+        {"name": "conv2d_1", "class": "Conv2D", "params": 38, "filters": 2, "kernel": [3, 3]},
+        {"name": "max_pooling2d_1", "class": "MaxPooling2D", "params": 0},
+        {"name": "flatten", "class": "Flatten", "params": 0},
+        {"name": "dense", "class": "Dense", "params": 786, "units": 2, "activation": "softmax"}
+      ],
+      "precision_source": "frb_pooled_hls/frb_pooled_hls/firmware/defines.h (read directly)",
+      "precision": {"weight_t": "ap_fixed<16,6>", "bias_t": "ap_fixed<16,6>", "uniform_across_layers": true},
+      "memory_bytes": {"fixed_point_16_6": 1688, "float32": 3376},
+      "test_accuracy_source": "classifier/frb_classifier_pooled.ipynb, cell 9 output (training log, no explicit save() cell found)",
+      "test_accuracy": 0.9520131588357291,
+      "test_confusion_matrix": [[7314, 5], [666, 5998]],
+      "test_set_size": 13983,
+      "test_set_class_balance": {"RFI": 7319, "FRB": 6664},
+      "accuracy_confidence_caveat": "High confidence this is the training run for this architecture/dataset, but the notebook has no model.save() cell, so exact weight-file match to classifier/frb_classifier_pooled.h5 is not cryptographically confirmed."
+    },
+    "handoff_group1_baseline": {
+      "files": {"w16_6": "fpga_handoff/group1_w16_6/keras_model.keras", "w8_3": "fpga_handoff/group1_w8_3/keras_model.keras"},
+      "ablation_source": "ablation_results/models/seedcheck_baseline_s142.keras (byte-identical weights, confirmed)",
+      "input_shape": [256, 256, 1],
+      "input_elements": 65536,
+      "bottleneck_flatten_dim": 256,
+      "output_shape": [1],
+      "total_params": 8797,
+      "trainable_params": 8797,
+      "layers": [
+        {"name": "conv_0", "class": "Conv2D", "params": 20, "filters": 2, "kernel": [3, 3]},
+        {"name": "pool_0", "class": "MaxPooling2D", "params": 0},
+        {"name": "conv_1", "class": "Conv2D", "params": 76, "filters": 4, "kernel": [3, 3]},
+        {"name": "pool_1", "class": "MaxPooling2D", "params": 0},
+        {"name": "conv_2", "class": "Conv2D", "params": 148, "filters": 4, "kernel": [3, 3]},
+        {"name": "pool_2", "class": "MaxPooling2D", "params": 0},
+        {"name": "conv_3", "class": "Conv2D", "params": 148, "filters": 4, "kernel": [3, 3]},
+        {"name": "pool_3", "class": "MaxPooling2D", "params": 0},
+        {"name": "conv_4", "class": "Conv2D", "params": 148, "filters": 4, "kernel": [3, 3]},
+        {"name": "pool_4", "class": "MaxPooling2D", "params": 0},
+        {"name": "flatten", "class": "Flatten", "params": 0},
+        {"name": "dense_0", "class": "Dense", "params": 8224, "units": 32, "activation": "relu"},
+        {"name": "drop_0", "class": "Dropout", "params": 0, "rate": 0.3},
+        {"name": "output", "class": "Dense", "params": 33, "units": 1, "activation": "sigmoid"}
+      ],
+      "precision_source": "fpga_handoff/group1_w16_6(w8_3)/firmware/defines.h (read directly)",
+      "precision": {
+        "w16_6": {"weight_t": "ap_fixed<16,6>", "bias_t": "ap_fixed<16,6>", "uniform_across_layers": true},
+        "w8_3": {"weight_t": "ap_fixed<8,3>", "bias_t": "ap_fixed<8,3>", "uniform_across_layers": true}
+      },
+      "memory_bytes": {"fixed_point_16_6": 17594, "fixed_point_8_3": 8797, "float32": 35188},
+      "test_accuracy_source": "ablation_results/seed_check_results.json, seedcheck_baseline_s142 entry",
+      "test_accuracy": 0.9675324559211731,
+      "test_confusion_matrix": [[154, 0], [10, 144]],
+      "test_set_size": 308,
+      "note": "No Vitis synthesis reports exist for this project (see 00_inventory.md). Only architecture-level analytic numbers are available."
+    },
+    "handoff_group2_front_loaded": {
+      "files": {"w16_6": "fpga_handoff/group2_w16_6/keras_model.keras", "w8_3": "fpga_handoff/group2_w8_3/keras_model.keras"},
+      "ablation_source": "ablation_results/models/group2_b_front_loaded.keras (byte-identical weights, confirmed)",
+      "input_shape": [256, 256, 1],
+      "input_elements": 65536,
+      "bottleneck_flatten_dim": 256,
+      "output_shape": [1],
+      "total_params": 8885,
+      "trainable_params": 8885,
+      "layers": [
+        {"name": "conv_0", "class": "Conv2D", "params": 40, "filters": 4, "kernel": [3, 3]},
+        {"name": "pool_0", "class": "MaxPooling2D", "params": 0, "pool_size": [4, 4]},
+        {"name": "conv_1", "class": "Conv2D", "params": 296, "filters": 8, "kernel": [3, 3]},
+        {"name": "pool_1", "class": "MaxPooling2D", "params": 0, "pool_size": [4, 4]},
+        {"name": "conv_2", "class": "Conv2D", "params": 292, "filters": 4, "kernel": [3, 3]},
+        {"name": "pool_2", "class": "MaxPooling2D", "params": 0, "pool_size": [2, 2]},
+        {"name": "flatten", "class": "Flatten", "params": 0},
+        {"name": "dense_0", "class": "Dense", "params": 8224, "units": 32, "activation": "relu"},
+        {"name": "drop_0", "class": "Dropout", "params": 0, "rate": 0.3},
+        {"name": "output", "class": "Dense", "params": 33, "units": 1, "activation": "sigmoid"}
+      ],
+      "precision_source": "fpga_handoff/group2_w16_6(w8_3)/firmware/defines.h (read directly)",
+      "precision": {
+        "w16_6": {"weight_t": "ap_fixed<16,6>", "bias_t": "ap_fixed<16,6>", "uniform_across_layers": true},
+        "w8_3": {"weight_t": "ap_fixed<8,3>", "bias_t": "ap_fixed<8,3>", "uniform_across_layers": true}
+      },
+      "memory_bytes": {"fixed_point_16_6": 17770, "fixed_point_8_3": 8885, "float32": 35540},
+      "test_accuracy_source": "ablation_results/all_results.json, group2_b_front_loaded entry",
+      "test_accuracy": 0.9642857313156128,
+      "test_confusion_matrix": [[154, 0], [11, 143]],
+      "test_set_size": 308,
+      "note": "No Vitis synthesis reports exist for this project (see 00_inventory.md). Only architecture-level analytic numbers are available."
+    },
+    "cnn_v1_reference": {
+      "file": "models/cnn_v1/model.keras",
+      "label": "July 2026 baseline instance (reference only, not a synthesis candidate)",
+      "input_shape": [256, 256, 1],
+      "total_params": 8797,
+      "note": "Same architecture and param count as handoff_group1_baseline, but a DIFFERENT, independently-trained set of weights (confirmed by direct weight comparison, mtime 2026-07-21 vs group1's 2026-09-18). Provenance gap vs train_cnn.py noted in 00_inventory.md, not investigated further per instruction.",
+      "memory_bytes": {"float32": 35188},
+      "accuracy": "not separately confirmed; excluded from accuracy claims to avoid conflating with group1's seed-142 weights"
+    }
+  },
+  "datasets": {
+    "lstm_dataset_v6": {
+      "path": "augmented_dataset/lstm_dataset_v6.npz",
+      "size_bytes": 495517228,
+      "used_by": ["train_cnn.py", "scripts/ablation_arch.py ablation study (all fpga_handoff models trace back here)"],
+      "keys": {
+        "X_train": {"shape": [1436, 256, 256], "dtype": "float32"},
+        "y_train": {"shape": [1436], "dtype": "float32"},
+        "X_val": {"shape": [308, 256, 256], "dtype": "float32"},
+        "y_val": {"shape": [308], "dtype": "float32"},
+        "X_test": {"shape": [308, 256, 256], "dtype": "float32"},
+        "y_test": {"shape": [308], "dtype": "float32"},
+        "dm_train": {"shape": [1436], "dtype": "float32"},
+        "dm_val": {"shape": [308], "dtype": "float32"},
+        "dm_test": {"shape": [308], "dtype": "float32"}
+      },
+      "total_samples": 2052,
+      "class_balance": {"train": {"FRB": 718, "noise": 718}, "val": {"FRB": 154, "noise": 154}, "test": {"FRB": 154, "noise": 154}},
+      "dm_field": "populated (100-2500 pc/cm3, near-unique per sample) for FRB-labeled rows only; NaN for all noise-labeled rows",
+      "real_vs_augmented": "NOT determinable from this file alone. 718+154+154=1026 total FRB-labeled samples exist here, each with a distinct DM value, but only 31 real CHIME FRB detections exist in realtime_data/FRBs/. This strongly suggests the large majority of FRB-labeled samples are synthetically redispersed/augmented, not independent real detections, but the exact real:synthetic ratio requires checking frb_augmentation_v5.ipynb / frb_augmentation_v6.ipynb, which were not opened in this phase."
+    },
+    "fpga_handoff_test_set": {
+      "path_X": "fpga_handoff/X_test.npy",
+      "path_y": "fpga_handoff/y_test.npy",
+      "size_bytes": {"X": 80740480, "y": 1360},
+      "shape_X": [308, 256, 256, 1],
+      "shape_y": [308],
+      "identity": "Confirmed identical sample count and shape to lstm_dataset_v6.npz's X_test/y_test (308 samples) -- this is that same held-out split, re-saved standalone for check_accuracy.py in each fpga_handoff/group* directory."
+    },
+    "pooled_model_dataset": {
+      "path_train": "classifier/fetch/train_data.hdf5",
+      "path_test": "classifier/fetch/test_data.hdf5",
+      "size_bytes": {"train": 17653183539, "test": 6036831364},
+      "confirmed_by": "classifier/frb_classifier_pooled.ipynb source code (loads 'fetch/train_data.hdf5' / 'fetch/test_data.hdf5' directly)",
+      "keys": {
+        "data_dm_time": "shape (N, 256, 256, 1), float32 -- the representation actually used by the pooled model",
+        "data_freq_time": "shape (N, 256, 256, 1), float32 -- present in file but NOT used (commented out in notebook)",
+        "data_labels": "shape (N,), bool"
+      },
+      "sample_counts": {"train": 40000, "test": 13983},
+      "preprocessing": "tf.image.resize() from (256,256,1) to (64,64,1) applied in-notebook (not saved to a separate file) -- this is a 16x pixel-count reduction via image interpolation, not physical re-binning",
+      "representation_note": "The pooled model classifies a DM-transform (dedispersion) image, NOT a frequency-time spectrogram, despite data_freq_time being available in the same file."
+    }
+  },
+  "raw_chime_files": {
+    "path": "realtime_data/FRBs/*_beamformed.h5",
+    "count": 31,
+    "total_size_bytes": 33838893580,
+    "size_range_bytes": [150790912, 2122801984],
+    "avg_size_bytes": 1091577212,
+    "per_file_shape_example": {"tiedbeam_power": [903, 2, 75913], "dtype": "float32", "delta_time_s": 2.56e-6}
+  }
+}

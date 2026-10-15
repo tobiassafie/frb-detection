@@ -1,0 +1,62 @@
+[
+ {
+  "label": "v7: s1mB_t0041_rfi",
+  "run_id": "s1mB_t0041_rfi",
+  "preproc": "v7",
+  "trained_on": "v7"
+ },
+ {
+  "label": "v7: loc_t0041_b32",
+  "run_id": "loc_t0041_b32",
+  "preproc": "v7",
+  "trained_on": "v7"
+ },
+ {
+  "label": "v7: 68k BN CNN",
+  "run_id": "loc_t0041_A_w8k5bn",
+  "preproc": "v7",
+  "trained_on": "v7"
+ },
+ {
+  "label": "v7: LSTM",
+  "run_id": "s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0",
+  "preproc": "v7",
+  "trained_on": "v7"
+ },
+ {
+  "label": "v7: GRU",
+  "run_id": "s3r_gru_u16_T64_F8_lr0.003_do0.0_d16",
+  "preproc": "v7",
+  "trained_on": "v7"
+ },
+ {
+  "label": "v7 stream-trained: t0041 cfg",
+  "run_id": "strm_t0041_s1",
+  "preproc": "v7",
+  "trained_on": "v7 stream pool"
+ },
+ {
+  "label": "v6: t0041 cfg",
+  "run_id": "v6_s1mB_t0041_rfi_s2",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6: b32 cfg",
+  "run_id": "v6_loc_t0041_b32_s1",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6: LSTM",
+  "run_id": "v6_s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0_s1",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6: GRU",
+  "run_id": "v6_s3r_gru_u16_T64_F8_lr0.003_do0.0_d16_s1",
+  "preproc": "v6",
+  "trained_on": "v6"
+ }
+]

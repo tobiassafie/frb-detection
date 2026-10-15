@@ -1,0 +1,552 @@
+{
+ "seed": 20260930,
+ "n_per_class": 600,
+ "snr_range": [
+  3.0,
+  50.0
+ ],
+ "dm_range": [
+  -12.0,
+  -0.5
+ ],
+ "files": {
+  "FRB20181209A_22154974_beamformed.h5": {
+   "fit": {
+    "dm_res": -2.1499999999996753,
+    "snr": 77.0139694889986,
+    "t_peak": 141,
+    "width": 1,
+    "n_time": 284,
+    "n_live": 256,
+    "f_hi": 799.21875,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 13,
+   "n_live": 256,
+   "group_id": 0
+  },
+  "FRB20181213A_22310619_beamformed.h5": {
+   "fit": {
+    "dm_res": -1.3999999999996646,
+    "snr": 26.87617435230284,
+    "t_peak": 123,
+    "width": 4,
+    "n_time": 284,
+    "n_live": 256,
+    "f_hi": 799.21875,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 31,
+   "n_live": 256,
+   "group_id": 1
+  },
+  "FRB20181226E_23948798_beamformed.h5": {
+   "fit": {
+    "dm_res": -4.949999999999715,
+    "snr": 38.9060531126892,
+    "t_peak": 251,
+    "width": 2,
+    "n_time": 316,
+    "n_live": 88,
+    "f_hi": 550.78125,
+    "f_lo": 407.03125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 19,
+   "n_live": 88,
+   "group_id": 2
+  },
+  "FRB20181231A_24342210_beamformed.h5": {
+   "fit": {
+    "dm_res": -4.3499999999997065,
+    "snr": 8.42478869648562,
+    "t_peak": 268,
+    "width": 1,
+    "n_time": 352,
+    "n_live": 117,
+    "f_hi": 599.21875,
+    "f_lo": 416.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 14,
+   "n_live": 117,
+   "group_id": 3
+  },
+  "FRB20181231C_24366209_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.399999999999693,
+    "snr": 16.196995732435205,
+    "t_peak": 163,
+    "width": 3,
+    "n_time": 212,
+    "n_live": 29,
+    "f_hi": 446.09375,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 22,
+   "n_live": 29,
+   "group_id": 4
+  },
+  "FRB20190102A_24510924_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.1499999999996895,
+    "snr": 58.690688344738575,
+    "t_peak": 174,
+    "width": 6,
+    "n_time": 248,
+    "n_live": 47,
+    "f_hi": 472.65625,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 43,
+   "n_live": 47,
+   "group_id": 5
+  },
+  "FRB20190103C_24644651_beamformed.h5": {
+   "fit": {
+    "dm_res": -9.699999999999783,
+    "snr": 26.74053372918118,
+    "t_peak": 328,
+    "width": 6,
+    "n_time": 482,
+    "n_live": 72,
+    "f_hi": 539.84375,
+    "f_lo": 427.34375,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 45,
+   "n_live": 72,
+   "group_id": 6
+  },
+  "FRB20190210B_30105124_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.249999999999691,
+    "snr": 87.82770774796144,
+    "t_peak": 226,
+    "width": 3,
+    "n_time": 301,
+    "n_live": 80,
+    "f_hi": 527.34375,
+    "f_lo": 402.34375,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 21,
+   "n_live": 80,
+   "group_id": 7
+  },
+  "FRB20190213D_30502098_beamformed.h5": {
+   "fit": {
+    "dm_res": -1.5499999999996668,
+    "snr": 24.43396583104712,
+    "t_peak": 198,
+    "width": 8,
+    "n_time": 254,
+    "n_live": 50,
+    "f_hi": 478.90625,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 48,
+   "n_live": 50,
+   "group_id": 8
+  },
+  "FRB20190227A_31938812_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.6999999999996973,
+    "snr": 84.31653503534045,
+    "t_peak": 212,
+    "width": 6,
+    "n_time": 370,
+    "n_live": 139,
+    "f_hi": 642.96875,
+    "f_lo": 422.65625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 35,
+   "n_live": 139,
+   "group_id": 9
+  },
+  "FRB20190304B_32415255_beamformed.h5": {
+   "fit": {
+    "dm_res": -5.599999999999724,
+    "snr": 19.89770548194156,
+    "t_peak": 226,
+    "width": 12,
+    "n_time": 318,
+    "n_live": 95,
+    "f_hi": 553.90625,
+    "f_lo": 407.03125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 58,
+   "n_live": 95,
+   "group_id": 10
+  },
+  "FRB20190405B_35579228_beamformed.h5": {
+   "fit": {
+    "dm_res": -2.0999999999996746,
+    "snr": 29.544070803824415,
+    "t_peak": 153,
+    "width": 8,
+    "n_time": 391,
+    "n_live": 160,
+    "f_hi": 682.03125,
+    "f_lo": 428.90625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 53,
+   "n_live": 160,
+   "group_id": 11
+  },
+  "FRB20190420B_37342401_beamformed.h5": {
+   "fit": {
+    "dm_res": -7.899999999999757,
+    "snr": 34.34959394243103,
+    "t_peak": 416,
+    "width": 24,
+    "n_time": 435,
+    "n_live": 60,
+    "f_hi": 511.71875,
+    "f_lo": 419.53125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 67,
+   "n_live": 60,
+   "group_id": 12
+  },
+  "FRB20190423A_37637444_beamformed.h5": {
+   "fit": {
+    "dm_res": -6.449999999999736,
+    "snr": 360.12952898265917,
+    "t_peak": 298,
+    "width": 4,
+    "n_time": 380,
+    "n_live": 151,
+    "f_hi": 674.21875,
+    "f_lo": 425.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 49,
+   "n_live": 151,
+   "group_id": 13
+  },
+  "FRB20190425B_37948191_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.399999999999693,
+    "snr": 41.72771440599183,
+    "t_peak": 172,
+    "width": 2,
+    "n_time": 377,
+    "n_live": 145,
+    "f_hi": 653.90625,
+    "f_lo": 424.21875,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 19,
+   "n_live": 145,
+   "group_id": 14
+  },
+  "FRB20190502B_38552211_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.249999999999691,
+    "snr": 33.991450790823826,
+    "t_peak": 229,
+    "width": 12,
+    "n_time": 235,
+    "n_live": 40,
+    "f_hi": 461.71875,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 29,
+   "n_live": 40,
+   "group_id": 15
+  },
+  "FRB20190519E_39189271_beamformed.h5": {
+   "fit": {
+    "dm_res": -4.999999999999716,
+    "snr": 9.989442055925194,
+    "t_peak": 276,
+    "width": 1,
+    "n_time": 341,
+    "n_live": 109,
+    "f_hi": 586.71875,
+    "f_lo": 413.28125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 10,
+   "n_live": 109,
+   "group_id": 16
+  },
+  "FRB20190519H_39240093_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.249999999999691,
+    "snr": 169.56381215358317,
+    "t_peak": 165,
+    "width": 1,
+    "n_time": 284,
+    "n_live": 68,
+    "f_hi": 505.46875,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 11,
+   "n_live": 68,
+   "group_id": 17
+  },
+  "FRB20190608A_41189480_beamformed.h5": {
+   "fit": {
+    "dm_res": -2.349999999999678,
+    "snr": 15.838377381990233,
+    "t_peak": 157,
+    "width": 1,
+    "n_time": 428,
+    "n_live": 204,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 10,
+   "n_live": 204,
+   "group_id": 18
+  },
+  "FRB20190609A_41208961_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.4499999999996938,
+    "snr": 24.308096208351685,
+    "t_peak": 154,
+    "width": 1,
+    "n_time": 428,
+    "n_live": 204,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 11,
+   "n_live": 204,
+   "group_id": 19
+  },
+  "FRB20190609B_41242296_beamformed.h5": {
+   "fit": {
+    "dm_res": -5.3999999999997215,
+    "snr": 80.86038901053868,
+    "t_peak": 195,
+    "width": 2,
+    "n_time": 428,
+    "n_live": 204,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 16,
+   "n_live": 204,
+   "group_id": 20
+  },
+  "FRB20190609C_41252817_beamformed.h5": {
+   "fit": {
+    "dm_res": -5.3999999999997215,
+    "snr": 8.279854293700923,
+    "t_peak": 275,
+    "width": 1,
+    "n_time": 428,
+    "n_live": 204,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 11,
+   "n_live": 204,
+   "group_id": 21
+  },
+  "FRB20190609D_41257959_beamformed.h5": {
+   "fit": {
+    "dm_res": -2.6499999999996824,
+    "snr": 16.57531483238945,
+    "t_peak": 161,
+    "width": 3,
+    "n_time": 428,
+    "n_live": 204,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 22,
+   "n_live": 204,
+   "group_id": 22
+  },
+  "FRB20190612B_41366878_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.3499999999996923,
+    "snr": 47.12153557418371,
+    "t_peak": 202,
+    "width": 1,
+    "n_time": 428,
+    "n_live": 204,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 11,
+   "n_live": 204,
+   "group_id": 23
+  },
+  "FRB20190613B_41464641_beamformed.h5": {
+   "fit": {
+    "dm_res": -5.99999999999973,
+    "snr": 62.97549759908251,
+    "t_peak": 278,
+    "width": 1,
+    "n_time": 428,
+    "n_live": 204,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 12,
+   "n_live": 204,
+   "group_id": 24
+  },
+  "FRB20190619B_41750859_beamformed.h5": {
+   "fit": {
+    "dm_res": -4.3499999999997065,
+    "snr": 20.82992677544372,
+    "t_peak": 213,
+    "width": 2,
+    "n_time": 428,
+    "n_live": 229,
+    "f_hi": 799.21875,
+    "f_lo": 441.40625,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 14,
+   "n_live": 229,
+   "group_id": 25
+  },
+  "FRB20190627A_42608900_beamformed.h5": {
+   "fit": {
+    "dm_res": -3.549999999999695,
+    "snr": 23.30602621232825,
+    "t_peak": 112,
+    "width": 1,
+    "n_time": 253,
+    "n_live": 51,
+    "f_hi": 478.90625,
+    "f_lo": 400.78125,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 16,
+   "n_live": 51,
+   "group_id": 26
+  },
+  "FRB20190627D_42637411_beamformed.h5": {
+   "fit": {
+    "dm_res": -15.949999999999871,
+    "snr": 10.288905271927987,
+    "t_peak": 601,
+    "width": 32,
+    "n_time": 620,
+    "n_live": 39,
+    "f_hi": 483.59375,
+    "f_lo": 424.21875,
+    "edge_peak": false
+   },
+   "used": false,
+   "reason": "no visible burst; fit S/N 10 at max width 32 (spurious)"
+  },
+  "FRB20190628C_42842438_beamformed.h5": {
+   "fit": {
+    "dm_res": -6.499999999999737,
+    "snr": 6.018797368433098,
+    "t_peak": 281,
+    "width": 32,
+    "n_time": 790,
+    "n_live": 60,
+    "f_hi": 530.46875,
+    "f_lo": 436.71875,
+    "edge_peak": false
+   },
+   "used": false,
+   "reason": "no visible burst; fit S/N 6 (spurious)"
+  },
+  "FRB20190630C_43098433_beamformed.h5": {
+   "fit": {
+    "dm_res": -8.699999999999768,
+    "snr": 35.190206849110425,
+    "t_peak": 432,
+    "width": 4,
+    "n_time": 481,
+    "n_live": 71,
+    "f_hi": 538.28125,
+    "f_lo": 427.34375,
+    "edge_peak": false
+   },
+   "used": true,
+   "reason": null,
+   "template_len": 23,
+   "n_live": 71,
+   "group_id": 27
+  },
+  "FRB20190410B_36154661_beamformed.h5": {
+   "used": false,
+   "reason": "truncated HDF5 (unreadable)"
+  }
+ }
+}

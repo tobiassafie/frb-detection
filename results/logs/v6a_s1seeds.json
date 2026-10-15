@@ -1,0 +1,122 @@
+[
+ {
+  "kind": "cnn",
+  "filters": [
+   4,
+   8,
+   16,
+   16,
+   16
+  ],
+  "pools": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "kernel": 3,
+  "pool_type": "max",
+  "head": "flatten",
+  "dense": 16,
+  "dropout": 0.2,
+  "lr": 0.0010876151406564313,
+  "batch": 64,
+  "epochs": 400,
+  "patience": 60,
+  "lr_patience": 30,
+  "class_weight": false,
+  "t_pool": 1,
+  "f_pool": 1,
+  "seed": 1,
+  "stage": "stage1_seeds",
+  "run_id": "s1_H3_res256_seed1",
+  "hypothesis": "top-3 seeds"
+ },
+ {
+  "kind": "cnn",
+  "kernel": 3,
+  "pool_type": "max",
+  "head": "flatten",
+  "dense": 32,
+  "dropout": 0.3,
+  "stage": "stage1_seeds",
+  "run_id": "s0_baseline_2_4_4_4_4_seed1",
+  "filters": [
+   2,
+   4,
+   4,
+   4,
+   4
+  ],
+  "pools": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "seed": 242,
+  "hypothesis": "top-3 seeds (old recipe)"
+ },
+ {
+  "kind": "cnn",
+  "filters": [
+   4,
+   8,
+   16,
+   16,
+   16
+  ],
+  "pools": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "kernel": 3,
+  "pool_type": "max",
+  "head": "flatten",
+  "dense": 16,
+  "dropout": 0.2,
+  "lr": 0.0010876151406564313,
+  "batch": 64,
+  "epochs": 400,
+  "patience": 60,
+  "lr_patience": 30,
+  "class_weight": false,
+  "t_pool": 1,
+  "f_pool": 1,
+  "seed": 2,
+  "stage": "stage1_seeds",
+  "run_id": "s1_H3_res256_seed2",
+  "hypothesis": "top-3 seeds"
+ },
+ {
+  "kind": "cnn",
+  "kernel": 3,
+  "pool_type": "max",
+  "head": "flatten",
+  "dense": 32,
+  "dropout": 0.3,
+  "stage": "stage1_seeds",
+  "run_id": "s0_baseline_2_4_4_4_4_seed2",
+  "filters": [
+   2,
+   4,
+   4,
+   4,
+   4
+  ],
+  "pools": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "seed": 342,
+  "hypothesis": "top-3 seeds (old recipe)"
+ }
+]

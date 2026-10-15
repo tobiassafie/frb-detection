@@ -1,0 +1,201 @@
+Backend: Vitis
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    conv_0:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    conv_0_relu:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    conv_1:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    conv_1_relu:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    conv_2:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    conv_2_relu:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    conv_3:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    conv_3_relu:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    conv_4:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    conv_4_relu:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    dense_0:
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    dense_0_relu:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    drop_0:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    flatten:
+      Precision:
+        result: auto
+      Trace: false
+    input_data:
+      Precision:
+        result: auto
+      Trace: false
+    output:
+      Precision:
+        accum: auto
+        bias: auto
+        result: auto
+        weight: auto
+      ReuseFactor: 1
+      Trace: false
+    output_sigmoid:
+      Precision:
+        result: auto
+        table: fixed<18,8,TRN,WRAP,0>
+      ReuseFactor: 1
+      TableSize: 1024
+      Trace: false
+    pool_0:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    pool_1:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    pool_2:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    pool_3:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+    pool_4:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: auto
+        result: auto
+      ReuseFactor: 1
+      Trace: false
+  Model:
+    BitExact: null
+    BramFactor: 1000000000
+    Precision:
+      default: ap_fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Resource
+    TraceOutput: false
+IOType: io_stream
+InputData: null
+InputShapes:
+  input_data:
+  - 256
+  - 256
+  - 1
+KerasModel: !keras_model 'fpga_handoff\group3_w16_6/keras_model.keras'
+OutputDir: fpga_handoff\group3_w16_6
+OutputPredictions: null
+OutputShapes:
+  layer22_out:
+  - 1
+Part: xcvu9p-flga2104-2L-e
+ProjectName: frb_group3_w16_6
+Stamp: a020335a
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  TBOutputStream: both
+  WriteEmulationConstants: false
+  WriteTar: false
+  WriteWeightsTxt: true

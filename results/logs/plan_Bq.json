@@ -1,0 +1,10 @@
+[{"run_id": "qat_s1mB_t0041_rfi_8b", "variants": [
+  {"prec": "qkeras", "rf": 1, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "qkeras", "rf": 4, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "qkeras", "rf": 16, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "qkeras", "rf": 64, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "qkeras", "rf": 1, "strategy": "Latency", "io": "io_stream"}]},
+ {"run_id": "qat_s1mB_t0041_rfi_6b", "variants": [
+  {"prec": "qkeras", "rf": 1, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "qkeras", "rf": 4, "strategy": "Resource", "io": "io_stream"},
+  {"prec": "qkeras", "rf": 16, "strategy": "Resource", "io": "io_stream"}]}]

@@ -1,0 +1,6 @@
+project,est_mult_total,est_weight_kbits,est_latency_cycles,est_latency_us
+s0_baseline_2_4_4_4_4_s142__Res_rf4_w16_6,2194,140.8,288358,1441.79
+s0_lstm_v3_recipe_full150_seed1__Res_rf4_w16_6,7432,479.2,4096,20.48
+s1_H3_res256_seed2__Res_rf4_w16_6,5624,361.0,288358,1441.79
+s1_H4_half__Res_rf4_w16_6,648,41.6,72089,360.44
+s2_H7_lstm64__Res_rf4_w16_6,12808,824.3,1024,5.12

@@ -1,0 +1,50 @@
+[
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 42,
+  "stage": "stage2",
+  "run_id": "s2_H6_T64_F64",
+  "hypothesis": "H6: more freq channels per step, fewer steps",
+  "t_pool": 4,
+  "f_pool": 4
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 42,
+  "stage": "stage2",
+  "run_id": "s2_H6_T32_F128",
+  "hypothesis": "H6: more freq channels per step, fewer steps",
+  "t_pool": 8,
+  "f_pool": 2
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 42,
+  "stage": "stage2",
+  "run_id": "s2_H6_T64_F128",
+  "hypothesis": "H6: more freq channels per step, fewer steps",
+  "t_pool": 4,
+  "f_pool": 2
+ }
+]

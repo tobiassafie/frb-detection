@@ -1,0 +1,42 @@
+[
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 16,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "lr": 0.001,
+  "batch": 128,
+  "epochs": 150,
+  "patience": 150,
+  "lr_patience": 5,
+  "class_weight": true,
+  "seed": 42,
+  "t_pool": 1,
+  "f_pool": 1,
+  "stage": "v6c_stage1",
+  "run_id": "c_L1_u16",
+  "hypothesis": "L1a: LSTM16 within 1 pt"
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 8,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "lr": 0.001,
+  "batch": 128,
+  "epochs": 150,
+  "patience": 150,
+  "lr_patience": 5,
+  "class_weight": true,
+  "seed": 42,
+  "t_pool": 1,
+  "f_pool": 1,
+  "stage": "v6c_stage1",
+  "run_id": "c_L1_u8",
+  "hypothesis": "L1b: LSTM8 drops >1 pt"
+ }
+]

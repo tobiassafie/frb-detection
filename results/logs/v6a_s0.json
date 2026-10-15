@@ -1,0 +1,64 @@
+[
+ {
+  "kind": "cnn",
+  "kernel": 3,
+  "pool_type": "max",
+  "head": "flatten",
+  "dense": 32,
+  "dropout": 0.3,
+  "stage": "stage0_retrain",
+  "run_id": "s0_baseline_2_4_4_4_4_s142",
+  "filters": [
+   2,
+   4,
+   4,
+   4,
+   4
+  ],
+  "pools": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "seed": 142,
+  "hypothesis": "Reproduce seedcheck_baseline_s142 (96.75%) with its exact recipe (ablation_arch.py)"
+ },
+ {
+  "kind": "cnn",
+  "kernel": 3,
+  "pool_type": "max",
+  "head": "flatten",
+  "dense": 32,
+  "dropout": 0.3,
+  "stage": "stage0_retrain",
+  "run_id": "s0_train_cnn_py_4_8_8",
+  "filters": [
+   4,
+   8,
+   8
+  ],
+  "pools": [
+   2,
+   2,
+   2
+  ],
+  "seed": 42,
+  "hypothesis": "Reproduce train_cnn.py (3-conv [4,8,8]); no reported number exists for it"
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 10,
+  "lr_patience": 5,
+  "seed": 42,
+  "run_id": "s0_lstm_v3_recipe",
+  "stage": "stage0_retrain",
+  "hypothesis": "Reproduce lstm_v3 (96.43%): 256t x 256f, Conv1D(64,k1) -> LSTM(32) -> Dense32 -> drop0.3"
+ }
+]

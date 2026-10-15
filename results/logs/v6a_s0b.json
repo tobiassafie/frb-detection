@@ -1,0 +1,16 @@
+[
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "seed": 42,
+  "run_id": "s0_lstm_v3_recipe_full150",
+  "stage": "stage0_retrain",
+  "hypothesis": "lstm_v3 recipe but run all 150 epochs (the original log shows it never early-stopped: best epoch 145)"
+ }
+]

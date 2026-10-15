@@ -1,0 +1,27 @@
+| project | precision | strategy | reuse_factor | float_test_acc | emu_test_acc | est_mult_total | est_weight_kbits | est_latency_us | status |
+|---|---|---|---|---|---|---|---|---|---|
+| s1mB_t0041_rfi__Res_rf1_w16_6 | ap_fixed<16,6> | Resource | 1 | 0.9443 | 0.9446 | 6356 | 102.9000 | 278.8500 | written |
+| s1mB_t0041_rfi__Res_rf4_w16_6 | ap_fixed<16,6> | Resource | 4 | 0.9443 | 0.9446 | 1592 | 102.9000 | 360.4400 | written |
+| s1mB_t0041_rfi__Res_rf16_w16_6 | ap_fixed<16,6> | Resource | 16 | 0.9443 | 0.9446 | 387 | 102.9000 | 1673.1000 | written |
+| s1mB_t0041_rfi__Res_rf64_w16_6 | ap_fixed<16,6> | Resource | 64 | 0.9443 | 0.9446 | 90 | 102.9000 | 5767.1600 | written |
+| s1mB_t0041_rfi__Lat_rf1_w16_6 | ap_fixed<16,6> | Latency | 1 | 0.9443 | 0.9446 | 6356 | 102.9000 | 278.8500 | written |
+| s1mB_t0041_rfi__Res_rf4_w8_3 | ap_fixed<8,3> | Resource | 4 | 0.9443 | 0.9445 | 1592 | 51.5000 | 360.4400 | written |
+| s1mB_t0041_rfi__Res_rf4_w10_4 | ap_fixed<10,4> | Resource | 4 | 0.9443 | 0.9445 | 1592 | 64.3000 | 360.4400 | written |
+| s1mB_t0041_rfi__Res_rf4_w12_5 | ap_fixed<12,5> | Resource | 4 | 0.9443 | 0.9446 | 1592 | 77.2000 | 360.4400 | written |
+| qat_s1mB_t0041_rfi_8b__Res_rf1_qkeras | qkeras | Resource | 1 | 0.9443 | 0.9425 | 6356 | 51.5000 | 278.8500 | written |
+| qat_s1mB_t0041_rfi_8b__Res_rf4_qkeras | qkeras | Resource | 4 | 0.9443 | 0.9425 | 1592 | 51.5000 | 360.4400 | written |
+| qat_s1mB_t0041_rfi_8b__Res_rf16_qkeras | qkeras | Resource | 16 | 0.9443 | 0.9425 | 387 | 51.5000 | 1673.1000 | written |
+| qat_s1mB_t0041_rfi_8b__Res_rf64_qkeras | qkeras | Resource | 64 | 0.9443 | 0.9425 | 90 | 51.5000 | 5767.1600 | written |
+| qat_s1mB_t0041_rfi_8b__Lat_rf1_qkeras | qkeras | Latency | 1 | 0.9443 | 0.9425 | 6356 | 51.5000 | 278.8500 | written |
+| qat_s1mB_t0041_rfi_6b__Res_rf1_qkeras | qkeras | Resource | 1 | 0.9443 | 0.9336 | 6356 | 38.6000 | 278.8500 | written |
+| qat_s1mB_t0041_rfi_6b__Res_rf4_qkeras | qkeras | Resource | 4 | 0.9443 | 0.9336 | 1592 | 38.6000 | 360.4400 | written |
+| qat_s1mB_t0041_rfi_6b__Res_rf16_qkeras | qkeras | Resource | 16 | 0.9443 | 0.9336 | 387 | 38.6000 | 1673.1000 | written |
+| s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0__Res_rf1_w16_6 | ap_fixed<16,6> | Resource | 1 | 0.8354 | 0.8357 | 1552 | 25.9000 | 4.1600 | written |
+| s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0__Res_rf4_w16_6 | ap_fixed<16,6> | Resource | 4 | 0.8354 | 0.8357 | 388 | 25.9000 | 5.1200 | written |
+| s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0__Res_rf16_w16_6 | ap_fixed<16,6> | Resource | 16 | 0.8354 | 0.8357 | 97 | 25.9000 | 8.9600 | written |
+| s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0__Res_rf4_w12_6 | ap_fixed<12,6> | Resource | 4 | 0.8354 | 0.8385 | 388 | 19.4000 | 5.1200 | written |
+| s3r_lstm_u16_T64_F8_lr0.003_do0.2_d0__Res_rf4_w14_6 | ap_fixed<14,6> | Resource | 4 | 0.8354 | 0.8325 | 388 | 22.6000 | 5.1200 | written |
+| s3r_gru_u16_T64_F8_lr0.003_do0.0_d16__Res_rf4_w16_6 | ap_fixed<16,6> | Resource | 4 | 0.7810 | 0.7807 | 356 | 24.6000 | 5.1200 | written |
+| s3r_gru_u16_T64_F8_lr0.003_do0.0_d16__Res_rf16_w16_6 | ap_fixed<16,6> | Resource | 16 | 0.7810 | 0.7807 | 89 | 24.6000 | 8.9600 | written |
+| s3_lstm_u4_T32_F16__Res_rf1_w16_6 | ap_fixed<16,6> | Resource | 1 | 0.7991 | 0.7988 | 324 | 5.5000 | 2.0800 | written |
+| s3_lstm_u4_T32_F16__Res_rf4_w16_6 | ap_fixed<16,6> | Resource | 4 | 0.7991 | 0.7988 | 81 | 5.5000 | 2.5600 | written |

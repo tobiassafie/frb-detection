@@ -1,0 +1,6 @@
+table,project,run_id,kind,params,macs,precision,reuse_factor,strategy,io_type,static,float_test_acc_v6,emu_test_acc_v6,status,est_mult_total,est_weight_kbits,est_latency_cycles,est_latency_us
+"v6 benchmark - leaky split, comparison only",s1_H3_res256_seed2__Res_rf4_w16_6,s1_H3_res256_seed2,cnn,22561,14762000,"ap_fixed<16,6>",4,Resource,io_stream,,0.9837662337662336,0.9837662337662336,written,5624,361.0,288358,1441.79
+"v6 benchmark - leaky split, comparison only",s1_H4_half__Res_rf4_w16_6,s1_H4_half,cnn,2601,1070088,"ap_fixed<16,6>",4,Resource,io_stream,,0.9772727272727272,0.9772727272727272,written,648,41.6,72089,360.44
+"v6 benchmark - leaky split, comparison only",s0_baseline_2_4_4_4_4_s142__Res_rf4_w16_6,s0_baseline_2_4_4_4_4_s142,cnn,8797,3141664,"ap_fixed<16,6>",4,Resource,io_stream,,0.9772727272727272,0.9772727272727272,written,2194,140.8,288358,1441.79
+"v6 benchmark - leaky split, comparison only",s0_lstm_v3_recipe_full150_seed1__Res_rf4_w16_6,s0_lstm_v3_recipe_full150_seed1,rnn,29953,7341088,"ap_fixed<16,6>",4,Resource,io_parallel,True,0.961038961038961,0.9577922077922078,written,7432,479.2,4096,20.48
+"v6 benchmark - leaky split, comparison only",s2_H7_lstm64__Res_rf4_w16_6,s2_H7_lstm64,rnn,51521,3147808,"ap_fixed<16,6>",4,Resource,io_parallel,True,0.961038961038961,0.9512987012987012,written,12808,824.3,1024,5.12

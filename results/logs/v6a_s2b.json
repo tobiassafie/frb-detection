@@ -1,0 +1,62 @@
+[
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 42,
+  "stage": "stage2",
+  "t_pool": 4,
+  "f_pool": 2,
+  "run_id": "s2_H7_lstm64",
+  "hypothesis": "H7: 64 units vs 32"
+ },
+ {
+  "kind": "rnn",
+  "cell": "gru",
+  "units": 32,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 42,
+  "stage": "stage2",
+  "t_pool": 4,
+  "f_pool": 2,
+  "run_id": "s2_H7_gru32",
+  "hypothesis": "H7: GRU vs LSTM at 32"
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "dense": 32,
+  "dropout": 0.3,
+  "patience": 150,
+  "lr_patience": 5,
+  "epochs": 150,
+  "seed": 42,
+  "stage": "stage2",
+  "t_pool": 4,
+  "f_pool": 2,
+  "run_id": "s2_H8_conv1d_front",
+  "conv1d": [
+   {
+    "filters": 32,
+    "kernel": 5,
+    "pool": 2
+   },
+   {
+    "filters": 32,
+    "kernel": 5,
+    "pool": 2
+   }
+  ],
+  "hypothesis": "H8: Conv1D front end over time"
+ }
+]

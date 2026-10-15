@@ -1,0 +1,46 @@
+{
+ "lookup_exact_noise": {
+  "acc": 0.9837662337662337,
+  "bal_acc": 0.9837662337662338,
+  "precision": 1.0,
+  "recall": 0.9675324675324676,
+  "f1": 0.9834983498349835,
+  "auc": 0.9837662337662338,
+  "recall_at_1pct_fpr": 0.9675324675324676,
+  "tn": 154,
+  "fp": 0,
+  "fn": 5,
+  "tp": 149
+ },
+ "nearest_neighbour_1nn": {
+  "acc": 0.8993506493506493,
+  "bal_acc": 0.8993506493506493,
+  "precision": 1.0,
+  "recall": 0.7987012987012987,
+  "f1": 0.8880866425992779,
+  "auc": 0.8993506493506493,
+  "recall_at_1pct_fpr": 0.7987012987012987,
+  "tn": 154,
+  "fp": 0,
+  "fn": 31,
+  "tp": 123
+ },
+ "dedup_info": {
+  "n_test": 308,
+  "n_test_dup": 159,
+  "n_dedup": 149,
+  "dedup_noise": 0,
+  "dedup_frb": 149,
+  "dup_noise": 154,
+  "dup_frb": 5,
+  "unique_noise_images_total": 5
+ },
+ "lookup_exact_noise_on_dedup": {
+  "recall": 1.0,
+  "n": 149
+ },
+ "nearest_neighbour_1nn_on_dedup": {
+  "recall": 0.8255033493041992,
+  "n": 149
+ }
+}

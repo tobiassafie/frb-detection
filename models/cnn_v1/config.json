@@ -1,0 +1,62 @@
+{
+  "data_path": "./augmented_dataset/lstm_dataset_v6.npz",
+  "conv_layers": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "conv_activation": "relu",
+  "pool_size": [
+    2,
+    2
+  ],
+  "dense_units": [
+    32
+  ],
+  "dense_dropout": 0.3,
+  "dense_activation": "relu",
+  "output_classes": 1,
+  "batch_size": 128,
+  "epochs": 150,
+  "learning_rate": 0.001,
+  "optimizer": "adam",
+  "lr_schedule": "reduce_on_plateau",
+  "lr_patience": 10,
+  "lr_factor": 0.5,
+  "early_stop_patience": 30,
+  "class_weight": "auto",
+  "save_dir": "./models/",
+  "experiment_name": "cnn_v1",
+  "total_params": 8797,
+  "best_epoch": 150,
+  "best_val_loss": 0.17916986346244812,
+  "best_val_acc": 0.9448052048683167,
+  "test_loss": 0.127828449010849,
+  "test_acc": 0.9740259647369385,
+  "roc_auc": 0.9816790352504638,
+  "pr_auc": 0.9886737428281573,
+  "timestamp": "2026-07-21T21:14:56.262529",
+  "input_shape": [
+    256,
+    256,
+    1
+  ],
+  "flatten_dim": 256
+}

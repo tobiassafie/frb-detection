@@ -1,0 +1,7 @@
+*.npz
+*.npy
+*.hdf5
+realtime_data/
+.venv/
+__pycache__/
+hls_projects*/*/

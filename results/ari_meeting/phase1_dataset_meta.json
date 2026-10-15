@@ -1,0 +1,153 @@
+{
+  "lstm_dataset_v6.npz": {
+    "path": "augmented_dataset/lstm_dataset_v6.npz",
+    "size_bytes": 495517228,
+    "keys": {
+      "X_train": {
+        "shape": [
+          1436,
+          256,
+          256
+        ],
+        "dtype": "float32"
+      },
+      "y_train": {
+        "shape": [
+          1436
+        ],
+        "dtype": "float32"
+      },
+      "X_val": {
+        "shape": [
+          308,
+          256,
+          256
+        ],
+        "dtype": "float32"
+      },
+      "y_val": {
+        "shape": [
+          308
+        ],
+        "dtype": "float32"
+      },
+      "X_test": {
+        "shape": [
+          308,
+          256,
+          256
+        ],
+        "dtype": "float32"
+      },
+      "y_test": {
+        "shape": [
+          308
+        ],
+        "dtype": "float32"
+      },
+      "dm_train": {
+        "shape": [
+          1436
+        ],
+        "dtype": "float32"
+      },
+      "dm_val": {
+        "shape": [
+          308
+        ],
+        "dtype": "float32"
+      },
+      "dm_test": {
+        "shape": [
+          308
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "fpga_handoff_X_test.npy": {
+    "path": "fpga_handoff/X_test.npy",
+    "size_bytes": 80740480,
+    "keys": {
+      "shape": [
+        308,
+        256,
+        256,
+        1
+      ],
+      "dtype": "float32"
+    }
+  },
+  "fpga_handoff_y_test.npy": {
+    "path": "fpga_handoff/y_test.npy",
+    "size_bytes": 1360,
+    "keys": {
+      "shape": [
+        308
+      ],
+      "dtype": "float32"
+    }
+  },
+  "classifier_train_data.hdf5": {
+    "path": "classifier/fetch/train_data.hdf5",
+    "size_bytes": 17653183539,
+    "keys": {
+      "data_dm_time": {
+        "shape": [
+          40000,
+          256,
+          256,
+          1
+        ],
+        "dtype": "float32"
+      },
+      "data_freq_time": {
+        "shape": [
+          40000,
+          256,
+          256,
+          1
+        ],
+        "dtype": "float32"
+      },
+      "data_labels": {
+        "shape": [
+          40000
+        ],
+        "dtype": "bool"
+      }
+    },
+    "attrs": {}
+  },
+  "classifier_test_data.hdf5": {
+    "path": "classifier/fetch/test_data.hdf5",
+    "size_bytes": 6036831364,
+    "keys": {
+      "data_dm_time": {
+        "shape": [
+          13983,
+          256,
+          256,
+          1
+        ],
+        "dtype": "float32"
+      },
+      "data_freq_time": {
+        "shape": [
+          13983,
+          256,
+          256,
+          1
+        ],
+        "dtype": "float32"
+      },
+      "data_labels": {
+        "shape": [
+          13983
+        ],
+        "dtype": "bool"
+      }
+    },
+    "attrs": {}
+  }
+}

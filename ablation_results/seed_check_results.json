@@ -1,0 +1,956 @@
+{
+  "group1_f2": [
+    {
+      "name": "group1_f2",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 4627,
+      "flatten_dim": 128,
+      "epochs_run": 150,
+      "best_epoch": 141,
+      "best_val_acc": 0.9350649118423462,
+      "best_val_loss": 0.18099576234817505,
+      "test_acc": 0.9577922224998474,
+      "test_loss": 0.1448822170495987,
+      "roc_auc": 0.9729507505481532,
+      "pr_auc": 0.9829110379249343,
+      "f1_score": 0.9559322033898305,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          13,
+          141
+        ]
+      ],
+      "train_time_sec": 76.05791473388672,
+      "model_path": "ablation_results\\models\\group1_f2.keras",
+      "train_attempts": 1,
+      "final_filters": 2,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          2
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "seedcheck_group1_f2_s142",
+      "base_seed": 142,
+      "seed_used": 142,
+      "params": 4627,
+      "flatten_dim": 128,
+      "epochs_run": 150,
+      "best_epoch": 143,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.20019613206386566,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.14192885160446167,
+      "roc_auc": 0.9852209478832856,
+      "pr_auc": 0.990562389899859,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 77.81869912147522,
+      "model_path": "ablation_results\\models\\seedcheck_group1_f2_s142.keras",
+      "train_attempts": 1
+    },
+    {
+      "name": "seedcheck_group1_f2_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 4627,
+      "flatten_dim": 128,
+      "epochs_run": 150,
+      "best_epoch": 147,
+      "best_val_acc": 0.9448052048683167,
+      "best_val_loss": 0.1750825196504593,
+      "test_acc": 0.9675324559211731,
+      "test_loss": 0.12398673593997955,
+      "roc_auc": 0.9828596727947378,
+      "pr_auc": 0.9895592408145312,
+      "f1_score": 0.9664429530201343,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          10,
+          144
+        ]
+      ],
+      "train_time_sec": 77.48305654525757,
+      "model_path": "ablation_results\\models\\seedcheck_group1_f2_s242.keras",
+      "train_attempts": 1
+    }
+  ],
+  "baseline": [
+    {
+      "name": "group1_f4",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.20533718168735504,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.13272428512573242,
+      "roc_auc": 0.9793177601619161,
+      "pr_auc": 0.9867537670168289,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 77.3618586063385,
+      "model_path": "ablation_results\\models\\group1_f4.keras",
+      "train_attempts": 1,
+      "final_filters": 4,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "seedcheck_baseline_s142",
+      "base_seed": 142,
+      "seed_used": 142,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 126,
+      "best_epoch": 96,
+      "best_val_acc": 0.9545454382896423,
+      "best_val_loss": 0.1512865126132965,
+      "test_acc": 0.9675324559211731,
+      "test_loss": 0.11274485290050507,
+      "roc_auc": 0.9852209478832856,
+      "pr_auc": 0.990831991660645,
+      "f1_score": 0.9664429530201343,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          10,
+          144
+        ]
+      ],
+      "train_time_sec": 66.70274901390076,
+      "model_path": "ablation_results\\models\\seedcheck_baseline_s142.keras",
+      "train_attempts": 1
+    },
+    {
+      "name": "seedcheck_baseline_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9415584206581116,
+      "best_val_loss": 0.18082737922668457,
+      "test_acc": 0.9675324559211731,
+      "test_loss": 0.1389743834733963,
+      "roc_auc": 0.9790226007758476,
+      "pr_auc": 0.9871009471798521,
+      "f1_score": 0.9664429530201343,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          10,
+          144
+        ]
+      ],
+      "train_time_sec": 79.49158573150635,
+      "model_path": "ablation_results\\models\\seedcheck_baseline_s242.keras",
+      "train_attempts": 1
+    }
+  ],
+  "group2_b_front_loaded": [
+    {
+      "name": "group2_b_front_loaded",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8885,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 144,
+      "best_val_acc": 0.9448052048683167,
+      "best_val_loss": 0.16606152057647705,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.12468309700489044,
+      "roc_auc": 0.9816368696238826,
+      "pr_auc": 0.989056145898766,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 83.56378698348999,
+      "model_path": "ablation_results\\models\\group2_b_front_loaded.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          4,
+          8,
+          4
+        ],
+        "pool_schedule": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "b_front_loaded"
+    },
+    {
+      "name": "seedcheck_group2_b_front_loaded_s142",
+      "base_seed": 142,
+      "seed_used": 142,
+      "params": 8885,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9448052048683167,
+      "best_val_loss": 0.17853257060050964,
+      "test_acc": 0.951298713684082,
+      "test_loss": 0.14501693844795227,
+      "roc_auc": 0.9786431101366166,
+      "pr_auc": 0.9865728995216498,
+      "f1_score": 0.9488054607508533,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          15,
+          139
+        ]
+      ],
+      "train_time_sec": 86.21273398399353,
+      "model_path": "ablation_results\\models\\seedcheck_group2_b_front_loaded_s142.keras",
+      "train_attempts": 1
+    },
+    {
+      "name": "seedcheck_group2_b_front_loaded_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 8885,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9415584206581116,
+      "best_val_loss": 0.18461723625659943,
+      "test_acc": 0.9610389471054077,
+      "test_loss": 0.14189903438091278,
+      "roc_auc": 0.9816368696238826,
+      "pr_auc": 0.989056145898766,
+      "f1_score": 0.9594594594594594,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          12,
+          142
+        ]
+      ],
+      "train_time_sec": 85.66275548934937,
+      "model_path": "ablation_results\\models\\seedcheck_group2_b_front_loaded_s242.keras",
+      "train_attempts": 1
+    }
+  ],
+  "group2_c_back_loaded": [
+    {
+      "name": "group2_c_back_loaded",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8941,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 142,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.2081354260444641,
+      "test_acc": 0.9545454382896423,
+      "test_loss": 0.1460867077112198,
+      "roc_auc": 0.9864437510541406,
+      "pr_auc": 0.9913143407628013,
+      "f1_score": 0.9523809523809523,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          14,
+          140
+        ]
+      ],
+      "train_time_sec": 77.47143006324768,
+      "model_path": "ablation_results\\models\\group2_c_back_loaded.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          8,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "c_back_loaded"
+    },
+    {
+      "name": "seedcheck_group2_c_back_loaded_s142",
+      "base_seed": 142,
+      "seed_used": 143,
+      "params": 8941,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 147,
+      "best_val_acc": 0.9285714030265808,
+      "best_val_loss": 0.2013963907957077,
+      "test_acc": 0.9545454382896423,
+      "test_loss": 0.15317964553833008,
+      "roc_auc": 0.9852209478832856,
+      "pr_auc": 0.990831991660645,
+      "f1_score": 0.9523809523809523,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          14,
+          140
+        ]
+      ],
+      "train_time_sec": 78.67869186401367,
+      "model_path": "ablation_results\\models\\seedcheck_group2_c_back_loaded_s142.keras",
+      "train_attempts": 2
+    },
+    {
+      "name": "seedcheck_group2_c_back_loaded_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 8941,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9285714030265808,
+      "best_val_loss": 0.190867081284523,
+      "test_acc": 0.948051929473877,
+      "test_loss": 0.14522233605384827,
+      "roc_auc": 0.9811730477314893,
+      "pr_auc": 0.9884399823077579,
+      "f1_score": 0.9452054794520548,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          16,
+          138
+        ]
+      ],
+      "train_time_sec": 79.44245147705078,
+      "model_path": "ablation_results\\models\\seedcheck_group2_c_back_loaded_s242.keras",
+      "train_attempts": 1
+    }
+  ],
+  "group2_d_freq_preserving": [
+    {
+      "name": "group2_d_freq_preserving",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8666,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 142,
+      "best_val_acc": 0.9448052048683167,
+      "best_val_loss": 0.18396681547164917,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.14481596648693085,
+      "roc_auc": 0.9873292292123461,
+      "pr_auc": 0.9919650460846885,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 96.08955502510071,
+      "model_path": "ablation_results\\models\\group2_d_freq_preserving.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          4,
+          8,
+          1
+        ],
+        "pool_schedule": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "d_freq_preserving"
+    },
+    {
+      "name": "seedcheck_group2_d_freq_preserving_s142",
+      "base_seed": 142,
+      "seed_used": 142,
+      "params": 8666,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9090909361839294,
+      "best_val_loss": 0.2428802102804184,
+      "test_acc": 0.9577922224998474,
+      "test_loss": 0.16290389001369476,
+      "roc_auc": 0.9686498566368698,
+      "pr_auc": 0.9820636759843514,
+      "f1_score": 0.9559322033898305,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          13,
+          141
+        ]
+      ],
+      "train_time_sec": 98.06606101989746,
+      "model_path": "ablation_results\\models\\seedcheck_group2_d_freq_preserving_s142.keras",
+      "train_attempts": 1
+    },
+    {
+      "name": "seedcheck_group2_d_freq_preserving_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 8666,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 147,
+      "best_val_acc": 0.9415584206581116,
+      "best_val_loss": 0.18023450672626495,
+      "test_acc": 0.9610389471054077,
+      "test_loss": 0.13379791378974915,
+      "roc_auc": 0.9816368696238826,
+      "pr_auc": 0.9890561458987661,
+      "f1_score": 0.9594594594594594,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          12,
+          142
+        ]
+      ],
+      "train_time_sec": 95.4493682384491,
+      "model_path": "ablation_results\\models\\seedcheck_group2_d_freq_preserving_s242.keras",
+      "train_attempts": 1
+    }
+  ],
+  "group3_r2": [
+    {
+      "name": "group3_r2",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 145,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.21307829022407532,
+      "test_acc": 0.9448052048683167,
+      "test_loss": 0.17504006624221802,
+      "roc_auc": 0.9816368696238826,
+      "pr_auc": 0.9886730217294912,
+      "f1_score": 0.9415807560137457,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          17,
+          137
+        ]
+      ],
+      "train_time_sec": 50.297451972961426,
+      "model_path": "ablation_results\\models\\group3_r2.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 2
+      },
+      "r": 2,
+      "effective_time_res_ms": 1.31
+    },
+    {
+      "name": "seedcheck_group3_r2_s142",
+      "base_seed": 142,
+      "seed_used": 142,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 147,
+      "best_val_acc": 0.9285714030265808,
+      "best_val_loss": 0.22470736503601074,
+      "test_acc": 0.9545454382896423,
+      "test_loss": 0.17820993065834045,
+      "roc_auc": 0.9796129195479846,
+      "pr_auc": 0.9881954677522112,
+      "f1_score": 0.9523809523809523,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          14,
+          140
+        ]
+      ],
+      "train_time_sec": 49.303974628448486,
+      "model_path": "ablation_results\\models\\seedcheck_group3_r2_s142.keras",
+      "train_attempts": 1
+    },
+    {
+      "name": "seedcheck_group3_r2_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 141,
+      "best_val_acc": 0.9448052048683167,
+      "best_val_loss": 0.17539100348949432,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.14424221217632294,
+      "roc_auc": 0.9716857817507167,
+      "pr_auc": 0.9822028783070554,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 49.03583645820618,
+      "model_path": "ablation_results\\models\\seedcheck_group3_r2_s242.keras",
+      "train_attempts": 1
+    }
+  ],
+  "group3_r8": [
+    {
+      "name": "group3_r8",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9350649118423462,
+      "best_val_loss": 0.21609501540660858,
+      "test_acc": 0.9577922224998474,
+      "test_loss": 0.1692865639925003,
+      "roc_auc": 0.9817212008770451,
+      "pr_auc": 0.9877458410813611,
+      "f1_score": 0.9559322033898305,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          13,
+          141
+        ]
+      ],
+      "train_time_sec": 30.51285409927368,
+      "model_path": "ablation_results\\models\\group3_r8.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 8
+      },
+      "r": 8,
+      "effective_time_res_ms": 5.24
+    },
+    {
+      "name": "seedcheck_group3_r8_s142",
+      "base_seed": 142,
+      "seed_used": 142,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9220778942108154,
+      "best_val_loss": 0.21594387292861938,
+      "test_acc": 0.9285714030265808,
+      "test_loss": 0.2012414038181305,
+      "roc_auc": 0.9625780064091753,
+      "pr_auc": 0.9772566752243422,
+      "f1_score": 0.9230769230769231,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          22,
+          132
+        ]
+      ],
+      "train_time_sec": 30.1676082611084,
+      "model_path": "ablation_results\\models\\seedcheck_group3_r8_s142.keras",
+      "train_attempts": 1
+    },
+    {
+      "name": "seedcheck_group3_r8_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9058441519737244,
+      "best_val_loss": 0.2551560699939728,
+      "test_acc": 0.9350649118423462,
+      "test_loss": 0.21309657394886017,
+      "roc_auc": 0.9796550851745657,
+      "pr_auc": 0.9871371939698026,
+      "f1_score": 0.9305555555555556,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          20,
+          134
+        ]
+      ],
+      "train_time_sec": 30.92654013633728,
+      "model_path": "ablation_results\\models\\seedcheck_group3_r8_s242.keras",
+      "train_attempts": 1
+    }
+  ],
+  "group3_r16": [
+    {
+      "name": "group3_r16",
+      "base_seed": 42,
+      "seed_used": 43,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9253246784210205,
+      "best_val_loss": 0.22177532315254211,
+      "test_acc": 0.9545454382896423,
+      "test_loss": 0.15280455350875854,
+      "roc_auc": 0.9799502445606343,
+      "pr_auc": 0.9873590750991589,
+      "f1_score": 0.9523809523809523,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          14,
+          140
+        ]
+      ],
+      "train_time_sec": 28.33901834487915,
+      "model_path": "ablation_results\\models\\group3_r16.keras",
+      "train_attempts": 2,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 16
+      },
+      "r": 16,
+      "effective_time_res_ms": 10.48
+    },
+    {
+      "name": "seedcheck_group3_r16_s142",
+      "base_seed": 142,
+      "seed_used": 142,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 147,
+      "best_val_acc": 0.9123376607894897,
+      "best_val_loss": 0.2510281801223755,
+      "test_acc": 0.948051929473877,
+      "test_loss": 0.1908438354730606,
+      "roc_auc": 0.9772094788328555,
+      "pr_auc": 0.9855921519041084,
+      "f1_score": 0.9452054794520548,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          16,
+          138
+        ]
+      ],
+      "train_time_sec": 27.65540337562561,
+      "model_path": "ablation_results\\models\\seedcheck_group3_r16_s142.keras",
+      "train_attempts": 1
+    },
+    {
+      "name": "seedcheck_group3_r16_s242",
+      "base_seed": 242,
+      "seed_used": 242,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9188311696052551,
+      "best_val_loss": 0.2282904088497162,
+      "test_acc": 0.9350649118423462,
+      "test_loss": 0.19906003773212433,
+      "roc_auc": 0.9716436161241357,
+      "pr_auc": 0.9834268290318191,
+      "f1_score": 0.9305555555555556,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          20,
+          134
+        ]
+      ],
+      "train_time_sec": 27.875985145568848,
+      "model_path": "ablation_results\\models\\seedcheck_group3_r16_s242.keras",
+      "train_attempts": 1
+    }
+  ]
+}

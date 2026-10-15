@@ -1,0 +1,1097 @@
+{
+  "group1": [
+    {
+      "name": "group1_f1",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 2542,
+      "flatten_dim": 64,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9350649118423462,
+      "best_val_loss": 0.19114813208580017,
+      "test_acc": 0.9610389471054077,
+      "test_loss": 0.14440293610095978,
+      "roc_auc": 0.9823536852757633,
+      "pr_auc": 0.9893103790619319,
+      "f1_score": 0.9594594594594594,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          12,
+          142
+        ]
+      ],
+      "train_time_sec": 78.00604057312012,
+      "model_path": "ablation_results\\models\\group1_f1.keras",
+      "train_attempts": 1,
+      "final_filters": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          1
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "group1_f2",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 4627,
+      "flatten_dim": 128,
+      "epochs_run": 150,
+      "best_epoch": 141,
+      "best_val_acc": 0.9350649118423462,
+      "best_val_loss": 0.18099576234817505,
+      "test_acc": 0.9577922224998474,
+      "test_loss": 0.1448822170495987,
+      "roc_auc": 0.9729507505481532,
+      "pr_auc": 0.9829110379249343,
+      "f1_score": 0.9559322033898305,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          13,
+          141
+        ]
+      ],
+      "train_time_sec": 76.05791473388672,
+      "model_path": "ablation_results\\models\\group1_f2.keras",
+      "train_attempts": 1,
+      "final_filters": 2,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          2
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "group1_f4",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.20533718168735504,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.13272428512573242,
+      "roc_auc": 0.9793177601619161,
+      "pr_auc": 0.9867537670168289,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 77.3618586063385,
+      "model_path": "ablation_results\\models\\group1_f4.keras",
+      "train_attempts": 1,
+      "final_filters": 4,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "group1_f8",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 17137,
+      "flatten_dim": 512,
+      "epochs_run": 150,
+      "best_epoch": 148,
+      "best_val_acc": 0.8928571343421936,
+      "best_val_loss": 0.2956208288669586,
+      "test_acc": 0.9123376607894897,
+      "test_loss": 0.2781887352466583,
+      "roc_auc": 0.9147200202395007,
+      "pr_auc": 0.946328684188226,
+      "f1_score": 0.9039145907473309,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          27,
+          127
+        ]
+      ],
+      "train_time_sec": 76.91823744773865,
+      "model_path": "ablation_results\\models\\group1_f8.keras",
+      "train_attempts": 1,
+      "final_filters": 8,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          8
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "group1_f16",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 33817,
+      "flatten_dim": 1024,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9253246784210205,
+      "best_val_loss": 0.20218829810619354,
+      "test_acc": 0.9740259647369385,
+      "test_loss": 0.14388799667358398,
+      "roc_auc": 0.9816368696238826,
+      "pr_auc": 0.9890561458987661,
+      "f1_score": 0.9733333333333334,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          8,
+          146
+        ]
+      ],
+      "train_time_sec": 77.48290014266968,
+      "model_path": "ablation_results\\models\\group1_f16.keras",
+      "train_attempts": 1,
+      "final_filters": 16,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          16
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "group1_f32",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 67177,
+      "flatten_dim": 2048,
+      "epochs_run": 150,
+      "best_epoch": 144,
+      "best_val_acc": 0.9545454382896423,
+      "best_val_loss": 0.17515599727630615,
+      "test_acc": 0.9707792401313782,
+      "test_loss": 0.13632158935070038,
+      "roc_auc": 0.9839981447124304,
+      "pr_auc": 0.9896238548790407,
+      "f1_score": 0.9698996655518395,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          9,
+          145
+        ]
+      ],
+      "train_time_sec": 78.70678043365479,
+      "model_path": "ablation_results\\models\\group1_f32.keras",
+      "train_attempts": 1,
+      "final_filters": 32,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          32
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    },
+    {
+      "name": "group1_f64",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 133897,
+      "flatten_dim": 4096,
+      "epochs_run": 150,
+      "best_epoch": 144,
+      "best_val_acc": 0.9577922224998474,
+      "best_val_loss": 0.15491586923599243,
+      "test_acc": 0.9740259647369385,
+      "test_loss": 0.10908918082714081,
+      "roc_auc": 0.97910693202901,
+      "pr_auc": 0.9870504458002928,
+      "f1_score": 0.9733333333333334,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          8,
+          146
+        ]
+      ],
+      "train_time_sec": 146.95883917808533,
+      "model_path": "ablation_results\\models\\group1_f64.keras",
+      "train_attempts": 1,
+      "final_filters": 64,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          64
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      }
+    }
+  ],
+  "group2": [
+    {
+      "name": "group2_a_uniform",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.20533718168735504,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.13272428512573242,
+      "roc_auc": 0.9793177601619161,
+      "pr_auc": 0.9867537670168289,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 77.3618586063385,
+      "model_path": "ablation_results\\models\\group1_f4.keras",
+      "train_attempts": 1,
+      "final_filters": 4,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "a_uniform"
+    },
+    {
+      "name": "group2_b_front_loaded",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8885,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 144,
+      "best_val_acc": 0.9448052048683167,
+      "best_val_loss": 0.16606152057647705,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.12468309700489044,
+      "roc_auc": 0.9816368696238826,
+      "pr_auc": 0.989056145898766,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 83.56378698348999,
+      "model_path": "ablation_results\\models\\group2_b_front_loaded.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          4,
+          8,
+          4
+        ],
+        "pool_schedule": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "b_front_loaded"
+    },
+    {
+      "name": "group2_c_back_loaded",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8941,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 142,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.2081354260444641,
+      "test_acc": 0.9545454382896423,
+      "test_loss": 0.1460867077112198,
+      "roc_auc": 0.9864437510541406,
+      "pr_auc": 0.9913143407628013,
+      "f1_score": 0.9523809523809523,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          14,
+          140
+        ]
+      ],
+      "train_time_sec": 77.47143006324768,
+      "model_path": "ablation_results\\models\\group2_c_back_loaded.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          8,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "c_back_loaded"
+    },
+    {
+      "name": "group2_d_freq_preserving",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8666,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 142,
+      "best_val_acc": 0.9448052048683167,
+      "best_val_loss": 0.18396681547164917,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.14481596648693085,
+      "roc_auc": 0.9873292292123461,
+      "pr_auc": 0.9919650460846885,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 96.08955502510071,
+      "model_path": "ablation_results\\models\\group2_d_freq_preserving.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          4,
+          8,
+          1
+        ],
+        "pool_schedule": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "d_freq_preserving"
+    },
+    {
+      "name": "group2_e_time_preserving",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8666,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.8928571343421936,
+      "best_val_loss": 0.260715126991272,
+      "test_acc": 0.9090909361839294,
+      "test_loss": 0.2582302689552307,
+      "roc_auc": 0.9692401754090065,
+      "pr_auc": 0.979824089386705,
+      "f1_score": 0.9,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          28,
+          126
+        ]
+      ],
+      "train_time_sec": 95.6821460723877,
+      "model_path": "ablation_results\\models\\group2_e_time_preserving.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          4,
+          8,
+          1
+        ],
+        "pool_schedule": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "label": "e_time_preserving"
+    }
+  ],
+  "group3": [
+    {
+      "name": "group3_r1",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.20533718168735504,
+      "test_acc": 0.9642857313156128,
+      "test_loss": 0.13272428512573242,
+      "roc_auc": 0.9793177601619161,
+      "pr_auc": 0.9867537670168289,
+      "f1_score": 0.9629629629629629,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          11,
+          143
+        ]
+      ],
+      "train_time_sec": 77.3618586063385,
+      "model_path": "ablation_results\\models\\group1_f4.keras",
+      "train_attempts": 1,
+      "final_filters": 4,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "time_avgpool": null
+      },
+      "r": 1,
+      "effective_time_res_ms": 0.655
+    },
+    {
+      "name": "group3_r2",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 145,
+      "best_val_acc": 0.9318181872367859,
+      "best_val_loss": 0.21307829022407532,
+      "test_acc": 0.9448052048683167,
+      "test_loss": 0.17504006624221802,
+      "roc_auc": 0.9816368696238826,
+      "pr_auc": 0.9886730217294912,
+      "f1_score": 0.9415807560137457,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          17,
+          137
+        ]
+      ],
+      "train_time_sec": 50.297451972961426,
+      "model_path": "ablation_results\\models\\group3_r2.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 2
+      },
+      "r": 2,
+      "effective_time_res_ms": 1.31
+    },
+    {
+      "name": "group3_r4",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9188311696052551,
+      "best_val_loss": 0.2481679618358612,
+      "test_acc": 0.948051929473877,
+      "test_loss": 0.20373128354549408,
+      "roc_auc": 0.9696196660482375,
+      "pr_auc": 0.9823102480086982,
+      "f1_score": 0.9452054794520548,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          16,
+          138
+        ]
+      ],
+      "train_time_sec": 37.079970359802246,
+      "model_path": "ablation_results\\models\\group3_r4.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 4
+      },
+      "r": 4,
+      "effective_time_res_ms": 2.62
+    },
+    {
+      "name": "group3_r8",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 149,
+      "best_val_acc": 0.9350649118423462,
+      "best_val_loss": 0.21609501540660858,
+      "test_acc": 0.9577922224998474,
+      "test_loss": 0.1692865639925003,
+      "roc_auc": 0.9817212008770451,
+      "pr_auc": 0.9877458410813611,
+      "f1_score": 0.9559322033898305,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          13,
+          141
+        ]
+      ],
+      "train_time_sec": 30.51285409927368,
+      "model_path": "ablation_results\\models\\group3_r8.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 8
+      },
+      "r": 8,
+      "effective_time_res_ms": 5.24
+    },
+    {
+      "name": "group3_r16",
+      "base_seed": 42,
+      "seed_used": 43,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.9253246784210205,
+      "best_val_loss": 0.22177532315254211,
+      "test_acc": 0.9545454382896423,
+      "test_loss": 0.15280455350875854,
+      "roc_auc": 0.9799502445606343,
+      "pr_auc": 0.9873590750991589,
+      "f1_score": 0.9523809523809523,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          14,
+          140
+        ]
+      ],
+      "train_time_sec": 28.33901834487915,
+      "model_path": "ablation_results\\models\\group3_r16.keras",
+      "train_attempts": 2,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 16
+      },
+      "r": 16,
+      "effective_time_res_ms": 10.48
+    },
+    {
+      "name": "group3_r32",
+      "base_seed": 42,
+      "seed_used": 42,
+      "params": 8797,
+      "flatten_dim": 256,
+      "epochs_run": 150,
+      "best_epoch": 150,
+      "best_val_acc": 0.8636363744735718,
+      "best_val_loss": 0.33914774656295776,
+      "test_acc": 0.9090909361839294,
+      "test_loss": 0.29386699199676514,
+      "roc_auc": 0.9138345420812952,
+      "pr_auc": 0.9450760164388435,
+      "f1_score": 0.9,
+      "confusion_matrix": [
+        [
+          154,
+          0
+        ],
+        [
+          28,
+          126
+        ]
+      ],
+      "train_time_sec": 26.977683305740356,
+      "model_path": "ablation_results\\models\\group3_r32.keras",
+      "train_attempts": 1,
+      "build_args": {
+        "filters": [
+          2,
+          4,
+          4,
+          4,
+          4
+        ],
+        "pool_schedule": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "time_avgpool": 32
+      },
+      "r": 32,
+      "effective_time_res_ms": 20.96
+    }
+  ]
+}

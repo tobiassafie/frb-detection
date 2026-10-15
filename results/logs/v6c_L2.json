@@ -1,0 +1,42 @@
+[
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "lr": 0.001,
+  "batch": 128,
+  "epochs": 150,
+  "patience": 150,
+  "lr_patience": 5,
+  "class_weight": true,
+  "seed": 42,
+  "t_pool": 4,
+  "f_pool": 1,
+  "stage": "v6c_stage1",
+  "run_id": "c_L2_T64F256",
+  "hypothesis": "L2a: 64 steps x 256 ch, ~same acc, 4x fewer MACs"
+ },
+ {
+  "kind": "rnn",
+  "cell": "lstm",
+  "units": 32,
+  "freq_reduction": 64,
+  "dense": 32,
+  "dropout": 0.3,
+  "lr": 0.001,
+  "batch": 128,
+  "epochs": 150,
+  "patience": 150,
+  "lr_patience": 5,
+  "class_weight": true,
+  "seed": 42,
+  "t_pool": 2,
+  "f_pool": 2,
+  "stage": "v6c_stage1",
+  "run_id": "c_L2_T128F128",
+  "hypothesis": "L2b: 128 steps x 128 ch, same input size as L2a"
+ }
+]

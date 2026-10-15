@@ -1,0 +1,26 @@
+[
+ {
+  "label": "v7: 8-bit QAT CNN",
+  "run_id": "qat_s1mB_t0041_rfi_8b",
+  "preproc": "v7",
+  "trained_on": "v7"
+ },
+ {
+  "label": "v6: 8-bit QAT CNN",
+  "run_id": "qat_v6_s1mB_t0041_rfi_s2_8b",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6: 68k BN CNN",
+  "run_id": "v6_loc_t0041_A_w8k5bn_s0",
+  "preproc": "v6",
+  "trained_on": "v6"
+ },
+ {
+  "label": "v6: sweep winner (r128 avg flatten)",
+  "run_id": "v6_sw_r128_avg_flatten_d16",
+  "preproc": "v6",
+  "trained_on": "v6"
+ }
+]
