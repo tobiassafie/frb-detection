@@ -1,0 +1,74 @@
+[
+ {
+  "cell": "lstm",
+  "units": 32,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 42,
+  "stage": "roll_s1",
+  "run_id": "r_lstm32_f16_p4_onset",
+  "hypothesis": "base"
+ },
+ {
+  "cell": "gru",
+  "units": 32,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 42,
+  "stage": "roll_s1",
+  "run_id": "r_gru32_f16_p4_onset",
+  "hypothesis": "GRU vs LSTM"
+ },
+ {
+  "cell": "lstm",
+  "units": 64,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 42,
+  "stage": "roll_s1",
+  "run_id": "r_lstm64_f16_p4_onset",
+  "hypothesis": "units 64 vs 32"
+ },
+ {
+  "cell": "lstm",
+  "units": 32,
+  "front": 32,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 42,
+  "stage": "roll_s1",
+  "run_id": "r_lstm32_f32_p4_onset",
+  "hypothesis": "front-end 32 vs 16"
+ },
+ {
+  "cell": "lstm",
+  "units": 32,
+  "front": 16,
+  "head": 16,
+  "t_pool": 1,
+  "label": "onset",
+  "seed": 42,
+  "stage": "roll_s1",
+  "run_id": "r_lstm32_f16_p1_onset",
+  "hypothesis": "no time pooling vs x4"
+ },
+ {
+  "cell": "lstm",
+  "units": 32,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "window",
+  "seed": 42,
+  "stage": "roll_s1",
+  "run_id": "r_lstm32_f16_p4_window",
+  "hypothesis": "window label vs onset label"
+ }
+]

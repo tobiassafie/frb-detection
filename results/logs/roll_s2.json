@@ -1,0 +1,62 @@
+[
+ {
+  "cell": "gru",
+  "units": 32,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 142,
+  "stage": "roll_seeds",
+  "run_id": "r_gru32_f16_p4_onset_s142",
+  "hypothesis": "top-2 seeds"
+ },
+ {
+  "cell": "gru",
+  "units": 32,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 242,
+  "stage": "roll_seeds",
+  "run_id": "r_gru32_f16_p4_onset_s242",
+  "hypothesis": "top-2 seeds"
+ },
+ {
+  "cell": "lstm",
+  "units": 64,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 142,
+  "stage": "roll_seeds",
+  "run_id": "r_lstm64_f16_p4_onset_s142",
+  "hypothesis": "top-2 seeds"
+ },
+ {
+  "cell": "lstm",
+  "units": 64,
+  "front": 16,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 242,
+  "stage": "roll_seeds",
+  "run_id": "r_lstm64_f16_p4_onset_s242",
+  "hypothesis": "top-2 seeds"
+ },
+ {
+  "cell": "gru",
+  "units": 32,
+  "front": 32,
+  "head": 16,
+  "t_pool": 4,
+  "label": "onset",
+  "seed": 42,
+  "stage": "roll_s1",
+  "run_id": "r_gru32_f32_p4_onset",
+  "hypothesis": "GRU front-end 32"
+ }
+]

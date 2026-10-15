@@ -19,6 +19,7 @@ Copy `augmented_dataset/lstm_dataset_v6.npz` separately (USB / cloud drive) to r
 | `results/summary_v6a.md` | best models on the ORIGINAL v6 split (CNN reaches the 0.9838 ceiling) |
 | `results/summary_v6c.md` | smaller LSTMs + LSTM synthesis projects (est_ only) |
 | `results/summary_v6d.md` | small-RNN sweep + Pareto plot (GRU32 @ 140k MACs = 0.965) |
+| `results/summary_roll.md` | **rolling causal GRU/LSTM, P(FRB) per time step** (best GRU32: 0.990 ± 0.005 @1% FA, latency ≈ 0 bins); `scripts/roll_prep.py`, `scripts/roll_train.py`, `results/NOTES_roll.md` |
 | `results/NOTES*.md` | reasoning, assumptions, incidents for each stage |
 
 ## Key facts (details in the summaries)
