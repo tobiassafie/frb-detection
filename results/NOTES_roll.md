@@ -72,3 +72,21 @@ so onset/end cannot come from the dispersion law with `dm`.
   bins). It is not lookahead: the streaming check proves causality.
 * Not done here (later stages of the plan): mid-burst truncation tests, v7 cross-check, streaming
   false alarms per hour.
+
+## Stage 2 — mid-burst + shift tests (`scripts/roll_midburst.py`)
+* **Exact cut.** Each test FRB = background (a·N_k + c, from the roll_prep fit) + burst residual. The
+  cut is at onset + f·(end − onset), f ∈ {0.25, 0.5, 0.75, 1.0}, in the physical frame.
+  * Noise padding: real data up to the cut, background-only after it.
+  * Stream continuation: the real patch.
+  * For a causal model, P up to the cut is the same in both cases.
+* **S/N per sample is not stored in v6.** The proxy is the sweep-track score (bins < 7, 7–15, > 15).
+* **Diagnosis of the "fires at ~0 % of the sweep" result.**
+  * Background-only inputs never fire (0 %).
+  * Shifting the burst moves the fire time with it (+48 bins → +48 bins).
+  * But 61 % of the injected burst energy precedes the visible sweep by > 8 bins (v6's injected
+    signal includes the source file's edge/RFI content).
+  * So on v6 the rolling model detects the injected content early, mostly before the dispersive
+    sweep itself arrives. "Fraction of sweep seen at detection" is therefore not a physical early-
+    detection claim on this dataset.
+* **Reference: non-rolling v6d GRU.** It decides on the whole patch (no early decision possible).
+  Its padded-patch detection is 0.98–0.99 at every cut, and it is unaffected by shifts.

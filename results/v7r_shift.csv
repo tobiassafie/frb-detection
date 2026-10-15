@@ -1,0 +1,16 @@
+table,model,run_id,shift_bins,n,det_rate,latency_median_bins
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front16 pool4 (best val seed),r_gru32_f16_p4_onset,-48,149,0.9530201342281879,46.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front16 pool4 (best val seed),r_gru32_f16_p4_onset,-24,149,0.9664429530201343,22.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front16 pool4 (best val seed),r_gru32_f16_p4_onset,0,149,0.9664429530201343,-2.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front16 pool4 (best val seed),r_gru32_f16_p4_onset,24,149,0.9328859060402684,-21.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front16 pool4 (best val seed),r_gru32_f16_p4_onset,48,149,0.8389261744966443,-41.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front32 pool4,r_gru32_f32_p4_onset,-48,149,0.9731543624161074,46.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front32 pool4,r_gru32_f32_p4_onset,-24,149,0.9865771812080537,22.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front32 pool4,r_gru32_f32_p4_onset,0,149,0.9865771812080537,-4.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front32 pool4,r_gru32_f32_p4_onset,24,149,0.9798657718120806,-24.0
+"v6 benchmark - leaky split, comparison only",rolling GRU32 front32 pool4,r_gru32_f32_p4_onset,48,149,0.912751677852349,-42.5
+"v6 benchmark - leaky split, comparison only",non-rolling v6d GRU32 (reference),d_c16_p16_gru32_d32_s42,-48,149,0.9731543624161074,
+"v6 benchmark - leaky split, comparison only",non-rolling v6d GRU32 (reference),d_c16_p16_gru32_d32_s42,-24,149,0.9865771812080537,
+"v6 benchmark - leaky split, comparison only",non-rolling v6d GRU32 (reference),d_c16_p16_gru32_d32_s42,0,149,1.0,
+"v6 benchmark - leaky split, comparison only",non-rolling v6d GRU32 (reference),d_c16_p16_gru32_d32_s42,24,149,1.0,
+"v6 benchmark - leaky split, comparison only",non-rolling v6d GRU32 (reference),d_c16_p16_gru32_d32_s42,48,149,1.0,
